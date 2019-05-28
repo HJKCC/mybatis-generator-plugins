@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # org.mybatis.generator.api.ShellRunner
 主程序入口
 
@@ -66,7 +65,3 @@ mvn clean install
 
 # 项目引用
 项目添加 mybatis-generator-plugins 包依赖后，修改 resources 路径下的 generatorConfig.xml （如exchange-dao）,Maven 执行命令（mvn mybatis-generator:generate）自动生成代码
-=======
-# mybatis-generator-plugins
-以mybatis-generator-core 为基础的插件
->>>>>>> 7ca1961b0650de9c1a1328923b17235162e271ff
