@@ -69,7 +69,7 @@ if (stringHasValue(tableConfiguration.getMapperName())) {
 mvn clean install
 
 # 插件引用
-项目添加 mybatis-generator-plugins 包依赖后，修改 resources 路径下的 generatorConfig.xml （如exchange-dao）,Maven 执行命令（mvn mybatis-generator:generate）自动生成代码  
+项目添加 mybatis-generator-plugins 包依赖后，修改 resources 路径下的 generatorConfig.xml, Maven 执行命令（mvn mybatis-generator:generate）自动生成代码  
 1. 配置依赖及插件 pom.xml 
 ```
 <!-- 添加 mybatis-generator 插件（命令运行方式：进入工程目录执行：mvn mybatis-generator:generate 生成代码） -->
